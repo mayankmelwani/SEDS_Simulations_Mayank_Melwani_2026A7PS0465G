@@ -11,7 +11,7 @@ BOWL_CENTER = np.array([WIDTH / 2, HEIGHT / 2], dtype=float)
 BOWL_RADIUS = 300
 
 # Start with 1 ball, then 2. Many at once is the bonus.
-NUM_PARTICLES = 20
+NUM_PARTICLES = 3
 PARTICLE_RADIUS = 12
 PARTICLE_SPEED = 150.0
 
