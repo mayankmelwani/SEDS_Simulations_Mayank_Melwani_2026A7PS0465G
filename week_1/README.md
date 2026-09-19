@@ -130,3 +130,12 @@ twice, and how to avoid checking a ball against itself.
 
 Submission details will be announced separately, so don't worry about that part
 for now.
+
+answers for the questions - 
+
+Q1 - 
+the reason for this is that when the ball is very fast, the ball can go from one frame in which it is inside the bowl to one in which it is outise, with actually touching the bowl in either frame. this is the reason the detection could fail. one way to fix it might be to use better constraints when defining what actually counts as a "collision". another way it could be fix could be by using shorter timesteps between each frame. delta t and |v| decide when it happens.
+
+
+Q2 - 
+the peak height creeps upward over time. the program does integration with non continuous variables, which end up over counting and adding up extra energy over time. 
